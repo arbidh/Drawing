@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA484FB0198BDD9B00DD7153 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA484FAF198BDD9B00DD7153 /* UIKit.framework */; };
+		AA484FB2198BDD9B00DD7153 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA484FB1198BDD9B00DD7153 /* Foundation.framework */; };
+		AA484FB4198BDD9B00DD7153 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA484FB3198BDD9B00DD7153 /* CoreGraphics.framework */; };
+		AA484FBA198BDD9B00DD7153 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA484FB8198BDD9B00DD7153 /* InfoPlist.strings */; };
+		AA484FBC198BDD9B00DD7153 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA484FBB198BDD9B00DD7153 /* main.m */; };
+		AA484FC0198BDD9B00DD7153 /* ADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA484FBF198BDD9B00DD7153 /* ADAppDelegate.m */; };
+		AA484FC3198BDD9B00DD7153 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA484FC1198BDD9B00DD7153 /* MainStoryboard.storyboard */; };
+		AA484FC6198BDD9B00DD7153 /* ADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA484FC5198BDD9B00DD7153 /* ADViewController.m */; };
+		AA484FCD198BDDC400DD7153 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA484FCC198BDDC400DD7153 /* Twitter.framework */; };
+		AA484FE5198BDEFB00DD7153 /* b.png in Resources */ = {isa = PBXBuildFile; fileRef = AA484FCF198BDEFB00DD7153 /* b.png */; };
+		AA484FE6198BDEFB00DD7153 /* Black.png in Resources */ = {isa = PBXBuildFile; fileRef = AA484FD0198BDEFB00DD7153 /* Black.png */; };
+		AA484FE7198BDEFB00DD7153 /* Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = AA484FD1198BDEFB00DD7153 /* Blue.png */; };
+		AA484FE8198BDEFB00DD7153 /* Brown.png in Resources */ = {isa = PBXBuildFile; fileRef = AA484FD2198BDEFB00DD7153 /* Brown.png */; };
+		AA484FE9198BDEFB00DD7153 /* Custom-Color.png in Resources */ = {isa = PBXBuildFile; fileRef = AA484FD3198BDEFB00DD7153 /* Custom-Color.png */; };
+		AA484FEA198BDEFB00DD7153 /* DarkGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = AA484FD4198BDEFB00DD7153 /* DarkGreen.png */; };
+		AA484FEB198BDEFB00DD7153 /* DarkOrange.png in Resources */ = {isa = PBXBuildFile; fileRef = AA484FD5198BDEFB00DD7153 /* DarkOrange.png */; };
+		AA484FEC198BDEFB00DD7153 /* Eraser.png in Resources */ = {isa = PBXBuildFile; fileRef = AA484FD6198BDEFB00DD7153 /* Eraser.png */; };
+		AA484FED198BDEFB00DD7153 /* g.png in Resources */ = {isa = PBXBuildFile; fileRef = AA484FD7198BDEFB00DD7153 /* g.png */; };
+		AA484FEE198BDEFB00DD7153 /* Grey.png in Resources */ = {isa = PBXBuildFile; fileRef = AA484FD8198BDEFB00DD7153 /* Grey.png */; };
+		AA484FEF198BDEFB00DD7153 /* LightBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = AA484FD9198BDEFB00DD7153 /* LightBlue.png */; };
+		AA484FF0198BDEFB00DD7153 /* LightGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = AA484FDA198BDEFB00DD7153 /* LightGreen.png */; };
+		AA484FF1198BDEFB00DD7153 /* Opacity.png in Resources */ = {isa = PBXBuildFile; fileRef = AA484FDB198BDEFB00DD7153 /* Opacity.png */; };
+		AA484FF2198BDEFB00DD7153 /* r.png in Resources */ = {isa = PBXBuildFile; fileRef = AA484FDC198BDEFB00DD7153 /* r.png */; };
+		AA484FF3198BDEFB00DD7153 /* Red.png in Resources */ = {isa = PBXBuildFile; fileRef = AA484FDD198BDEFB00DD7153 /* Red.png */; };
+		AA484FF4198BDEFB00DD7153 /* reset-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = AA484FDE198BDEFB00DD7153 /* reset-Small.png */; };
+		AA484FF5198BDEFB00DD7153 /* Save-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = AA484FDF198BDEFB00DD7153 /* Save-Small.png */; };
+		AA484FF6198BDEFB00DD7153 /* Setting-1.png in Resources */ = {isa = PBXBuildFile; fileRef = AA484FE0198BDEFB00DD7153 /* Setting-1.png */; };
+		AA484FF7198BDEFB00DD7153 /* Setting-2.png in Resources */ = {isa = PBXBuildFile; fileRef = AA484FE1198BDEFB00DD7153 /* Setting-2.png */; };
+		AA484FF8198BDEFB00DD7153 /* thickness.png in Resources */ = {isa = PBXBuildFile; fileRef = AA484FE2198BDEFB00DD7153 /* thickness.png */; };
+		AA484FF9198BDEFB00DD7153 /* width.png in Resources */ = {isa = PBXBuildFile; fileRef = AA484FE3198BDEFB00DD7153 /* width.png */; };
+		AA484FFA198BDEFB00DD7153 /* Yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = AA484FE4198BDEFB00DD7153 /* Yellow.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA484FAB198BDD9B00DD7153 /* DrawingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA484FAF198BDD9B00DD7153 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AA484FB1198BDD9B00DD7153 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA484FB3198BDD9B00DD7153 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AA484FB7198BDD9B00DD7153 /* DrawingApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DrawingApp-Info.plist"; sourceTree = "<group>"; };
+		AA484FB9198BDD9B00DD7153 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA484FBB198BDD9B00DD7153 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA484FBD198BDD9B00DD7153 /* DrawingApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DrawingApp-Prefix.pch"; sourceTree = "<group>"; };
+		AA484FBE198BDD9B00DD7153 /* ADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADAppDelegate.h; sourceTree = "<group>"; };
+		AA484FBF198BDD9B00DD7153 /* ADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADAppDelegate.m; sourceTree = "<group>"; };
+		AA484FC2198BDD9B00DD7153 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		AA484FC4198BDD9B00DD7153 /* ADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADViewController.h; sourceTree = "<group>"; };
+		AA484FC5198BDD9B00DD7153 /* ADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADViewController.m; sourceTree = "<group>"; };
+		AA484FCC198BDDC400DD7153 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		AA484FCF198BDEFB00DD7153 /* b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b.png; sourceTree = "<group>"; };
+		AA484FD0198BDEFB00DD7153 /* Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Black.png; sourceTree = "<group>"; };
+		AA484FD1198BDEFB00DD7153 /* Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blue.png; sourceTree = "<group>"; };
+		AA484FD2198BDEFB00DD7153 /* Brown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Brown.png; sourceTree = "<group>"; };
+		AA484FD3198BDEFB00DD7153 /* Custom-Color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Custom-Color.png"; sourceTree = "<group>"; };
+		AA484FD4198BDEFB00DD7153 /* DarkGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DarkGreen.png; sourceTree = "<group>"; };
+		AA484FD5198BDEFB00DD7153 /* DarkOrange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DarkOrange.png; sourceTree = "<group>"; };
+		AA484FD6198BDEFB00DD7153 /* Eraser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Eraser.png; sourceTree = "<group>"; };
+		AA484FD7198BDEFB00DD7153 /* g.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = g.png; sourceTree = "<group>"; };
+		AA484FD8198BDEFB00DD7153 /* Grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Grey.png; sourceTree = "<group>"; };
+		AA484FD9198BDEFB00DD7153 /* LightBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LightBlue.png; sourceTree = "<group>"; };
+		AA484FDA198BDEFB00DD7153 /* LightGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LightGreen.png; sourceTree = "<group>"; };
+		AA484FDB198BDEFB00DD7153 /* Opacity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Opacity.png; sourceTree = "<group>"; };
+		AA484FDC198BDEFB00DD7153 /* r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = r.png; sourceTree = "<group>"; };
+		AA484FDD198BDEFB00DD7153 /* Red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Red.png; sourceTree = "<group>"; };
+		AA484FDE198BDEFB00DD7153 /* reset-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reset-Small.png"; sourceTree = "<group>"; };
+		AA484FDF198BDEFB00DD7153 /* Save-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Save-Small.png"; sourceTree = "<group>"; };
+		AA484FE0198BDEFB00DD7153 /* Setting-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Setting-1.png"; sourceTree = "<group>"; };
+		AA484FE1198BDEFB00DD7153 /* Setting-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Setting-2.png"; sourceTree = "<group>"; };
+		AA484FE2198BDEFB00DD7153 /* thickness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thickness.png; sourceTree = "<group>"; };
+		AA484FE3198BDEFB00DD7153 /* width.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = width.png; sourceTree = "<group>"; };
+		AA484FE4198BDEFB00DD7153 /* Yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yellow.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA484FA8198BDD9B00DD7153 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA484FCD198BDDC400DD7153 /* Twitter.framework in Frameworks */,
+				AA484FB0198BDD9B00DD7153 /* UIKit.framework in Frameworks */,
+				AA484FB2198BDD9B00DD7153 /* Foundation.framework in Frameworks */,
+				AA484FB4198BDD9B00DD7153 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA484FA0198BDD9B00DD7153 = {
+			isa = PBXGroup;
+			children = (
+				AA484FCC198BDDC400DD7153 /* Twitter.framework */,
+				AA484FB5198BDD9B00DD7153 /* DrawingApp */,
+				AA484FAE198BDD9B00DD7153 /* Frameworks */,
+				AA484FAC198BDD9B00DD7153 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA484FAC198BDD9B00DD7153 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA484FAB198BDD9B00DD7153 /* DrawingApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA484FAE198BDD9B00DD7153 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA484FAF198BDD9B00DD7153 /* UIKit.framework */,
+				AA484FB1198BDD9B00DD7153 /* Foundation.framework */,
+				AA484FB3198BDD9B00DD7153 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA484FB5198BDD9B00DD7153 /* DrawingApp */ = {
+			isa = PBXGroup;
+			children = (
+				AA484FCE198BDEFB00DD7153 /* Graphics */,
+				AA484FBE198BDD9B00DD7153 /* ADAppDelegate.h */,
+				AA484FBF198BDD9B00DD7153 /* ADAppDelegate.m */,
+				AA484FC1198BDD9B00DD7153 /* MainStoryboard.storyboard */,
+				AA484FC4198BDD9B00DD7153 /* ADViewController.h */,
+				AA484FC5198BDD9B00DD7153 /* ADViewController.m */,
+				AA484FB6198BDD9B00DD7153 /* Supporting Files */,
+			);
+			path = DrawingApp;
+			sourceTree = "<group>";
+		};
+		AA484FB6198BDD9B00DD7153 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA484FB7198BDD9B00DD7153 /* DrawingApp-Info.plist */,
+				AA484FB8198BDD9B00DD7153 /* InfoPlist.strings */,
+				AA484FBB198BDD9B00DD7153 /* main.m */,
+				AA484FBD198BDD9B00DD7153 /* DrawingApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA484FCE198BDEFB00DD7153 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				AA484FCF198BDEFB00DD7153 /* b.png */,
+				AA484FD0198BDEFB00DD7153 /* Black.png */,
+				AA484FD1198BDEFB00DD7153 /* Blue.png */,
+				AA484FD2198BDEFB00DD7153 /* Brown.png */,
+				AA484FD3198BDEFB00DD7153 /* Custom-Color.png */,
+				AA484FD4198BDEFB00DD7153 /* DarkGreen.png */,
+				AA484FD5198BDEFB00DD7153 /* DarkOrange.png */,
+				AA484FD6198BDEFB00DD7153 /* Eraser.png */,
+				AA484FD7198BDEFB00DD7153 /* g.png */,
+				AA484FD8198BDEFB00DD7153 /* Grey.png */,
+				AA484FD9198BDEFB00DD7153 /* LightBlue.png */,
+				AA484FDA198BDEFB00DD7153 /* LightGreen.png */,
+				AA484FDB198BDEFB00DD7153 /* Opacity.png */,
+				AA484FDC198BDEFB00DD7153 /* r.png */,
+				AA484FDD198BDEFB00DD7153 /* Red.png */,
+				AA484FDE198BDEFB00DD7153 /* reset-Small.png */,
+				AA484FDF198BDEFB00DD7153 /* Save-Small.png */,
+				AA484FE0198BDEFB00DD7153 /* Setting-1.png */,
+				AA484FE1198BDEFB00DD7153 /* Setting-2.png */,
+				AA484FE2198BDEFB00DD7153 /* thickness.png */,
+				AA484FE3198BDEFB00DD7153 /* width.png */,
+				AA484FE4198BDEFB00DD7153 /* Yellow.png */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA484FAA198BDD9B00DD7153 /* DrawingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA484FC9198BDD9B00DD7153 /* Build configuration list for PBXNativeTarget "DrawingApp" */;
+			buildPhases = (
+				AA484FA7198BDD9B00DD7153 /* Sources */,
+				AA484FA8198BDD9B00DD7153 /* Frameworks */,
+				AA484FA9198BDD9B00DD7153 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawingApp;
+			productName = DrawingApp;
+			productReference = AA484FAB198BDD9B00DD7153 /* DrawingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA484FA2198BDD9B00DD7153 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AD;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = AA484FA5198BDD9B00DD7153 /* Build configuration list for PBXProject "DrawingApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA484FA0198BDD9B00DD7153;
+			productRefGroup = AA484FAC198BDD9B00DD7153 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA484FAA198BDD9B00DD7153 /* DrawingApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA484FA9198BDD9B00DD7153 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA484FBA198BDD9B00DD7153 /* InfoPlist.strings in Resources */,
+				AA484FC3198BDD9B00DD7153 /* MainStoryboard.storyboard in Resources */,
+				AA484FE5198BDEFB00DD7153 /* b.png in Resources */,
+				AA484FE6198BDEFB00DD7153 /* Black.png in Resources */,
+				AA484FE7198BDEFB00DD7153 /* Blue.png in Resources */,
+				AA484FE8198BDEFB00DD7153 /* Brown.png in Resources */,
+				AA484FE9198BDEFB00DD7153 /* Custom-Color.png in Resources */,
+				AA484FEA198BDEFB00DD7153 /* DarkGreen.png in Resources */,
+				AA484FEB198BDEFB00DD7153 /* DarkOrange.png in Resources */,
+				AA484FEC198BDEFB00DD7153 /* Eraser.png in Resources */,
+				AA484FED198BDEFB00DD7153 /* g.png in Resources */,
+				AA484FEE198BDEFB00DD7153 /* Grey.png in Resources */,
+				AA484FEF198BDEFB00DD7153 /* LightBlue.png in Resources */,
+				AA484FF0198BDEFB00DD7153 /* LightGreen.png in Resources */,
+				AA484FF1198BDEFB00DD7153 /* Opacity.png in Resources */,
+				AA484FF2198BDEFB00DD7153 /* r.png in Resources */,
+				AA484FF3198BDEFB00DD7153 /* Red.png in Resources */,
+				AA484FF4198BDEFB00DD7153 /* reset-Small.png in Resources */,
+				AA484FF5198BDEFB00DD7153 /* Save-Small.png in Resources */,
+				AA484FF6198BDEFB00DD7153 /* Setting-1.png in Resources */,
+				AA484FF7198BDEFB00DD7153 /* Setting-2.png in Resources */,
+				AA484FF8198BDEFB00DD7153 /* thickness.png in Resources */,
+				AA484FF9198BDEFB00DD7153 /* width.png in Resources */,
+				AA484FFA198BDEFB00DD7153 /* Yellow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA484FA7198BDD9B00DD7153 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA484FBC198BDD9B00DD7153 /* main.m in Sources */,
+				AA484FC0198BDD9B00DD7153 /* ADAppDelegate.m in Sources */,
+				AA484FC6198BDD9B00DD7153 /* ADViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA484FB8198BDD9B00DD7153 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA484FB9198BDD9B00DD7153 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AA484FC1198BDD9B00DD7153 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA484FC2198BDD9B00DD7153 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA484FC7198BDD9B00DD7153 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA484FC8198BDD9B00DD7153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA484FCA198BDD9B00DD7153 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrawingApp/DrawingApp-Prefix.pch";
+				INFOPLIST_FILE = "DrawingApp/DrawingApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AA484FCB198BDD9B00DD7153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrawingApp/DrawingApp-Prefix.pch";
+				INFOPLIST_FILE = "DrawingApp/DrawingApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA484FA5198BDD9B00DD7153 /* Build configuration list for PBXProject "DrawingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA484FC7198BDD9B00DD7153 /* Debug */,
+				AA484FC8198BDD9B00DD7153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA484FC9198BDD9B00DD7153 /* Build configuration list for PBXNativeTarget "DrawingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA484FCA198BDD9B00DD7153 /* Debug */,
+				AA484FCB198BDD9B00DD7153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA484FA2198BDD9B00DD7153 /* Project object */;
+}
